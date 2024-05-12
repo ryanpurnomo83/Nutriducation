@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Poppins Light;
+    src: url(../../../fonts/Poppins-Light.otf);
+  }
+  
+  
+  * {
+    font-family: Poppins Light;
+  }
+
+  .card{
+    display: flex;
+    width: 50%;
+    height: 150px;
+    max-width: 450px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(240, 240, 240, 0.5);
+    box-shadow: 2px 5px 3px 5px #888788;
+    border:2px;
+    border-radius: 8px;
+  }
+
+  .card:hover{
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+
+  .text1{
+    padding-top: 50px;
+
+    text-align:center;
+  }
+
+  .paybutton {
+    border: 1px solid;
+    border-radius: 15px;
+  }
